@@ -1,0 +1,145 @@
+.inputContainer {
+  @apply relative h-[41px] bg-white rounded-lg border border-primary-gray-400 overflow-hidden flex items-center justify-between;
+}
+
+.input {
+  @apply w-full h-full bg-transparent focus:outline-none text-primary-gray-900;
+}
+
+.inputDisabled,
+.inputDisabled .input,
+.inputDisabled .inputEye {
+  @apply cursor-not-allowed;
+}
+
+// typeStyle === 'typeAuth'
+.typeAuth {
+  @apply bg-primary-gray-50 border-slate-200 mb-4;
+}
+
+.typeAuth .input {
+  @apply text-14-400-21 pl-[18px] pr-4;
+}
+
+.typeAuth .input::placeholder {
+  @apply text-primary-gray-400;
+}
+
+// typeStyle === 'borderGray300TextBlack'
+.borderGray300TextBlack {
+  @apply border-primary-gray-300 rounded-[5px];
+}
+
+.borderGray300TextBlack .input {
+  @apply text-14-500-normal px-[14px] text-black;
+}
+
+.borderGray300TextBlack .input::placeholder {
+  @apply text-primary-gray-300;
+}
+
+// typeStyle === 'borderGray300TextNeutral700'
+.borderGray300TextNeutral700 {
+  @apply border-primary-gray-300 rounded-[5px];
+}
+
+.borderGray300TextNeutral700 .input {
+  @apply text-12-500-18 px-[18px] text-primary-neutral-700;
+}
+
+.borderGray300TextNeutral700 .input::placeholder {
+  @apply text-primary-gray-300;
+}
+
+// typeStyle === 'borderNeutral400TextNeutral900'
+.borderNeutral400TextNeutral900 {
+  @apply border-primary-neutral-400;
+}
+
+.borderNeutral400TextNeutral900 .input {
+  @apply text-14-400-22 px-4 text-primary-neutral-900;
+}
+
+.borderNeutral400TextNeutral900 .input::placeholder {
+  @apply text-primary-neutral-400;
+}
+
+// typeStyle === 'borderNeutral500'
+.borderNeutral500 {
+  @apply border-primary-neutral-500 rounded-[5px];
+}
+
+.borderNeutral500 .input {
+  @apply text-12-500-18 px-4 text-primary-neutral-500;
+}
+
+// typeStyle === 'borderZinc400TextZinc500'
+.borderZinc400TextZinc500 {
+  @apply border-primary-gray-400 rounded-lg;
+}
+
+.borderZinc400TextZinc500 .input {
+  @apply text-14-500-normal text-primary-gray-500 px-4;
+}
+
+.borderZinc400TextZinc500 .input::placeholder {
+  @apply text-primary-gray-400;
+}
+
+// typeStyle === 'borderZinc400TextZinc500Padding22'
+.borderZinc400TextZinc500Padding22 {
+  @apply border-primary-gray-400 rounded-lg;
+}
+
+.borderZinc400TextZinc500Padding22 .input {
+  @apply text-14-500-normal px-[22px] text-primary-gray-500;
+}
+
+.borderZinc400TextZinc500Padding22 .input::placeholder {
+  @apply text-primary-gray-400;
+}
+
+// size === 'small'
+.small {
+  @apply h-[31px];
+}
+
+// size === 'medium'
+.medium {
+  @apply h-[41px];
+}
+
+// size === 'large'
+.large {
+  @apply h-[50px];
+}
+
+// size === 'xLarge'
+.xLarge {
+  @apply h-[56px];
+}
+
+// prefix
+.inputPrefix {
+  @apply pl-[10px];
+}
+
+.inputPrefix + .input {
+  @apply pl-0;
+}
+
+.inputSuffix {
+  @apply pr-4;
+}
+
+.input.suffixInput {
+  @apply pr-2;
+}
+
+.inputPrefixNeutral500 {
+  @apply pl-4;
+}
+
+.inputEye {
+  @apply cursor-pointer mr-[17px];
+}

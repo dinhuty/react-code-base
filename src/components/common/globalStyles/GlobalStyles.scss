@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$assets-path: '../../../assets/fonts';
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  src: url('#{$assets-path}/SfProDisplay/SF-Pro-Display-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  src: url('#{$assets-path}/SfProDisplay/SF-Pro-Display-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 700;
+  src: url('#{$assets-path}/SfProDisplay/SF-Pro-Display-Bold.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}

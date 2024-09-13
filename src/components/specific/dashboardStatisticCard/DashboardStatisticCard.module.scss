@@ -1,0 +1,15 @@
+.StatisticCardContainer {
+ @apply h-full w-full flex flex-col pl-[16px] pt-[4px] pb-[8px] border border-primary-gray-300 rounded-lg;
+}
+
+.title {
+ @apply mb-[6px] text-17-500-normal;
+}
+
+.content {
+ @apply text-32-700-48;
+}
+
+.description {
+ @apply text-primary-gray-400 text-14-400-21;
+}

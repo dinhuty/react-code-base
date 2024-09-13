@@ -1,0 +1,23 @@
+.mainContainer {
+  @apply w-screen h-screen flex;
+}
+
+.sidebarContainer {
+  @apply basis-[306px] h-full;
+}
+
+.primaryContent {
+  @apply flex flex-1 flex-col my-5 mr-5 border rounded-[24px] px-5 pb-5 pt-8;
+}
+
+.mainContent {
+  @apply flex-1 border-[1px] rounded-[24px];
+}
+
+.headerContainer {
+  @apply w-full;
+}
+
+.content {
+  @apply flex-1 mt-7 max-w-[1920px];
+}

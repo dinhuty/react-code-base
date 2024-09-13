@@ -1,0 +1,11 @@
+.searchWrapper {
+  @apply flex w-[277px] h-[41px] rounded-lg border-[1px] border-solid border-primary-gray-300;
+}
+
+.headerSearchInput {
+  @apply flex-1 rounded-lg outline-none;
+}
+
+.headerSearchIcon {
+  @apply flex relative w-[39px] h-full items-center justify-center;
+}

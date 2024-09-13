@@ -1,0 +1,25 @@
+$assets-path: '../../../assets/';
+
+.container {
+  @apply h-screen w-full overflow-auto flex items-center justify-center bg-cover bg-no-repeat bg-[url('#{$assets-path}images/admin_background_image_login.png')];
+}
+
+.loginForm {
+  @apply flex-col flex items-center bg-white w-[679px] h-[762px];
+}
+
+.loginLogo {
+  @apply flex items-center justify-center mt-[72px] px-[273px];
+}
+
+.logo {
+  @apply w-full h-full;
+}
+
+.wrapperLoginSide {
+  @apply flex-col items-center justify-center w-full h-full mt-[42px] px-[174px] text-left;
+}
+
+.wrapperForm {
+  @apply flex-col items-center justify-center w-full;
+}

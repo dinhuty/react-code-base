@@ -1,0 +1,31 @@
+.dashboardPage {
+  @apply h-full w-full;
+}
+
+.statisticCardGroup {
+  @apply mb-4 grid grid-cols-4 gap-x-6;
+}
+
+.cardWrap {
+  @apply h-[111px] w-full flex justify-center items-center;
+}
+
+.bodyGroup {
+  @apply grid grid-cols-9 gap-x-4;
+}
+
+.statisticGroup {
+  @apply col-span-6 grid grid-rows-2 gap-y-4;
+}
+
+.notificationGroup {
+  @apply col-span-3;
+}
+
+.statisticChartGroup {
+  @apply grid grid-cols-2 gap-x-4;
+}
+
+.chartWrap {
+  @apply flex justify-center items-center w-full;
+}

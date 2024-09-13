@@ -1,0 +1,84 @@
+{
+  "// with_param": "Hi, GreenifyVN {{name}}",
+  "// use_with_param": "t('welcome', { name: 'GreenifyVN' });",
+  "// with_object": {
+    "it": "Italian",
+    "en": "English"
+  },
+  "//_use_with_object": "t('language.vi');",
+
+  "// with_component": "Here's an example with a component: <0>{{component}}</0> , <1>{{title}}</1>",
+  "// use_with_component": "<Trans i18nKey='with_component' values={{ component: 'React component', title: 'GreenifyVN' }} components={[<strong className={cx('component_text')} />, <i />]} />;",
+
+  "sidebar_label_item_dashboard": "Dashboard",
+  "sidebar_label_item_profile": "Profile",
+  "sidebar_label_item_company_admin": "Company Admin",
+  "sidebar_label_item_my_subscription": "My Subscription",
+  "sidebar_label_item_notification": "Notification",
+  "sidebar_label_item_settings": "Settings",
+  "sidebar_label_item_general": "General",
+  "sidebar_label_item_preference": "Preference",
+  "sidebar_label_item_subscription": "Subscriptions",
+  "sidebar_label_item_subscription_setting": "Settings",
+
+  "admin_header_search_placeholder": "Search anything...",
+  "admin_header_search_icon_alt": "Search Icon",
+
+  "common_img_text_alt": "Alt image default",
+
+  "admin_signin_title": "Welcome Back!",
+  "admin_signin_form_title": "Sign in",
+  "admin_signin_email_placeholder": "Enter your email",
+  "admin_signin_password_placeholder": "Enter your password",
+  "admin_signin_forgot_password": "Forgot Password?",
+  "admin_signin_login_button": "Login",
+  "admin_img_title_default_alt": "Default alt img",
+
+  "admin_item_notification_image_alt": "Image notification",
+
+  "component_switch_on": "On",
+  "component_switch_off": "Off",
+  "component_dashboard_statistic_card": "Analysis for last 30 days",
+
+  "admin_switch_on": "On",
+  "admin_switch_off": "Off",
+
+  "admin_forgot_password_title": "Forgot Password?",
+  "admin_forgot_password_note": "Enter your email and we will send you a link to reset your password.",
+  "admin_forgot_password_send_button": "Send",
+  "admin_success_ok_button": "OK",
+
+  "admin_create_new_password_title": "Create Password",
+  "admin_create_new_password_new_password_placeholder": "Enter new password",
+  "admin_create_new_password_confirm_password_placeholder": "Confirm password",
+  "admin_create_new_password_title_text_note": "Password must be 8 character long and must include",
+  "admin_create_new_password_validate_number": "0-1",
+  "admin_create_new_password_validate_uppercase": "A-Z",
+  "admin_create_new_password_validate_lowercase": "a-z",
+  "admin_create_new_password_validate_special_characters": "!@#$&",
+  "admin_create_password_create_button": "Create",
+  "change_password_success_title_success": "Your password is changed successfully!",
+
+  "admin_overview_label_button_edit": "Edit Current Plan",
+  "admin_overview_label_button_add": "Add Plan",
+
+  "admin_my_subscription_title_table": "Subscriber List",
+
+  "admin_company_admin_title_table": "Company Admin",
+  "admin_company_admin_button_add_table": "Add Admin",
+
+  "admin_dashboard_column_chart_title": "Teams Strength",
+  "admin_dashboard_title_table": "Company Admin",
+  "admin_dashboard_title_notifications": "Notifications",
+  "admin_dashboard_text_notification_view_all": "View All",
+
+  "admin_setting_notification_title_table": "Notifications",
+  "admin_setting_notification_title_email": "Email Notifications",
+  "admin_setting_notification_title_more": "More Activity",
+  "admin_setting_notification_label_button_cancel": "Cancel",
+  "admin_setting_notification_label_button_save": "Save",
+
+  "admin_ticket_notification_title": "Pro Plan",
+  "admin_ticket_notification_description": "Your current subscription will end in 30 days",
+  "admin_ticket_notification_button": "Upgrade"
+}

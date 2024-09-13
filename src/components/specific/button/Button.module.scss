@@ -1,0 +1,27 @@
+.originStyle {
+  @apply w-full h-[31px] flex justify-center items-center py-2 px-3 rounded-[5px] border-[1px] border-primary-gray-300 bg-white text-12-500-18 text-primary-gray-700;
+}
+
+.primary {
+  @apply rounded-[8px] text-14-500-normal;
+}
+
+.white {
+  @apply border-primary-cyan-500 bg-white text-primary-cyan-500 text-12-400-18;
+}
+
+.cyan {
+  @apply border-primary-cyan-500 bg-primary-cyan-500 text-white text-12-400-18;
+}
+
+.green {
+  @apply bg-primary-green-400 text-white text-12-500-normal;
+}
+
+.login {
+  @apply bg-primary-cyan-500 text-white text-14-500-normal rounded-lg;
+}
+
+.iconButton {
+  @apply me-2;
+}

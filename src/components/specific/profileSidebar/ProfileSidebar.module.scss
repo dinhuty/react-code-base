@@ -1,0 +1,27 @@
+.profileSidebarContainer {
+  @apply rounded-lg;
+}
+
+.profileWrapper {
+  @apply relative w-[78px] h-[78px];
+}
+
+.profileLogo {
+  @apply w-full h-full rounded-lg;
+}
+
+.profileContent {
+  @apply mt-5;
+}
+
+.profileName {
+  @apply text-primary-gray-700 text-30-700-45;
+}
+
+.profileRole {
+  @apply text-primary-gray-700/60 text-17-500-normal;
+}
+
+.notification {
+  @apply flex justify-center items-center bg-primary-red-500 text-primary-gray-700 rounded-full absolute h-7 w-7 right-[-14px] top-[-14px] text-center text-13-600-normal;
+}

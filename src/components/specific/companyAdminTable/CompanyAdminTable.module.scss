@@ -1,0 +1,89 @@
+.companyAdminTable {
+  @apply h-full w-full bg-white rounded-lg fill-black;
+}
+
+// Header
+.headerGroup {
+  @apply w-full flex justify-between pr-[21px];
+}
+
+.headTitleWrap {
+  @apply flex items-center justify-start;
+}
+
+.title {
+  @apply text-17-500-normal text-primary-neutral-700;
+}
+
+.headButton {
+  @apply flex justify-between gap-4 text-14-400-21;
+}
+
+// Body
+.bodyGroup {
+  @apply w-full flex mt-[18px];
+}
+
+// Table Style
+.tableStyle {
+  @apply w-full min-w-max table-auto text-left;
+}
+
+// - style common for table
+.textStyle {
+  @apply text-12-400-18 text-gray-500;
+}
+
+.imgStyle {
+  @apply w-7 h-auto mr-2 rounded-full object-cover;
+}
+
+.headCheckbox {
+  @apply mr-2 w-[15px] h-[15px];
+}
+
+// - style thead
+.theadStyle {
+  @apply border-b border-primary-gray-300;
+}
+
+.thStyle {
+  @apply cursor-pointer pb-1 px-0 pt-0;
+}
+
+.btnSort {
+  @apply ml-1;
+}
+
+//  - style tbody
+.tbodyStyle tr {
+  @apply cursor-pointer;
+}
+
+.tbodyStyle .textStyle {
+  @apply text-primary-neutral-700;
+}
+
+.tbodyStyle td .headCheckbox {
+  @apply mr-2;
+}
+
+.tbodyStyle tr:first-child td {
+  @apply pt-[11px] pb-[14px];
+}
+
+.tbodyStyle tr:not(:first-child) td {
+  @apply pb-[14px];
+}
+
+.cellContainer {
+  @apply flex items-center mr-[18px];
+}
+
+.cellText {
+  @apply m-0;
+}
+
+.iconCreat {
+  @apply mr-2;
+}

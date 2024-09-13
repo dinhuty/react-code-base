@@ -1,0 +1,27 @@
+.originStyle {
+  @apply rounded-lg flex justify-center items-center;
+}
+
+.primary {
+  @apply bg-primary-blue-500/10 text-primary-blue-500;
+}
+
+.orange {
+  @apply bg-primary-orange-400/10 text-primary-orange-400;
+}
+
+.green400 {
+  @apply bg-primary-green-400/10 text-primary-green-600;
+}
+
+.green600 {
+  @apply bg-primary-green-600/10 text-primary-green-600;
+}
+
+.purple {
+  @apply bg-primary-purple-500/10 text-primary-purple-500;
+}
+
+.rose {
+  @apply bg-primary-rose-500/10 text-primary-rose-500;
+}

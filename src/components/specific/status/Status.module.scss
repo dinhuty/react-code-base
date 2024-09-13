@@ -1,0 +1,15 @@
+.originStyle {
+  @apply flex items-center justify-center;
+}
+
+.primary {
+  @apply bg-primary-blue-400/10 text-blue-400 text-12-500-18 rounded-[5px];
+}
+
+.orange {
+  @apply bg-primary-orange-400/10 text-primary-orange-400 text-12-500-18 rounded-[5px];
+}
+
+.teal {
+  @apply bg-primary-teal-500 text-white text-10-400-15 rounded-[3px];
+}

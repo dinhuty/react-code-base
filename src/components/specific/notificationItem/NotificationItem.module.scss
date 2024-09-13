@@ -1,0 +1,19 @@
+.notificationItemContainer {
+  @apply w-full p-[10px] flex items-center bg-primary-slate-100 rounded-lg;
+}
+
+.imageStyle {
+  @apply w-9 h-9 rounded;
+}
+
+.mainContent {
+  @apply ml-[14px];
+}
+
+.notificationTitle {
+  @apply text-12-500-18 text-primary-neutral-700;
+}
+
+.notificationTime {
+  @apply mt-[2px] text-10-400-normal text-primary-slate-500;
+}

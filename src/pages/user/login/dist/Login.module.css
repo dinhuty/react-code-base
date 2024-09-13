@@ -1,0 +1,20 @@
+.mainLayout {
+  @apply inline-block m-10;
+}
+
+.modalTicket {
+  @apply w-[209px] p-4 rounded-md flex flex-col gap-3 justify-center items-center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.modalTicketTitle {
+  @apply text-16-600-24 mb-2;
+}
+
+.modalTicketDesc {
+  @apply text-12-400-18;
+}
+
+.modalTicketButton {
+  @apply bg-cyan-500 text-12-400-18 rounded-md p-2 w-full;
+}

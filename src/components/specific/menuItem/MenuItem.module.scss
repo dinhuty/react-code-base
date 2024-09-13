@@ -1,0 +1,80 @@
+.menuContainer {
+  @apply w-full text-primary-gray-700/50 text-25-700-normal;
+}
+
+.activeMenu {
+  @apply text-primary-cyan-500;
+}
+
+.menuLink {
+  @apply w-full h-[40px] flex items-center justify-between;
+}
+
+.menuLink:hover {
+  @apply text-primary-cyan-500;
+}
+
+.menuLink:hover .menuLabel {
+  @apply text-primary-cyan-500;
+}
+
+.labelGroup {
+  @apply flex items-center justify-between;
+}
+
+.labelGroupActive {
+  @apply text-primary-cyan-500;
+}
+
+.iconMenu {
+  @apply h-[24px] w-[24px];
+}
+
+// Submenu
+.submenuWrap {
+  @apply w-full;
+}
+
+.menuBtn {
+  @apply w-full h-[40px] flex items-center justify-start gap-7;
+}
+
+.submenuContainer {
+  @apply pl-[27px] pb-2;
+}
+
+.submenuLink {
+  @apply w-full h-[40px] flex items-center mt-2 pl-4 pr-[14px] first:mt-0;
+}
+
+.submenuLink:hover {
+  @apply bg-primary-cyan-500/10 text-primary-cyan-500;
+}
+
+.submenuLink:hover .menuLabel {
+  @apply bg-primary-cyan-500/10;
+}
+
+.submenuLinkActive {
+  @apply bg-primary-cyan-500/10 text-primary-cyan-500;
+}
+
+.menuLabel:hover {
+  @apply text-primary-cyan-500;
+}
+
+.menuLabelActive {
+  @apply text-primary-cyan-500;
+}
+
+.submenuLabel {
+  @apply text-primary-cyan-500 text-14-500-normal pl-4;
+}
+
+.iconMenuDropdown {
+  @apply rotate-0;
+}
+
+.iconMenuDropdownOpen {
+  @apply rotate-90;
+}

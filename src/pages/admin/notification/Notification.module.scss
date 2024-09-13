@@ -1,0 +1,65 @@
+.notificationPage {
+  @apply h-full w-full bg-white rounded-lg;
+}
+
+// Header
+.headerGroup {
+  @apply w-full flex justify-between mt-[7px] pr-9;
+}
+
+.headTitleWrap {
+  @apply flex items-center justify-start;
+}
+
+.title {
+  @apply text-17-500-normal text-primary-neutral-700;
+}
+
+.headButton {
+  @apply flex justify-between gap-4;
+}
+
+.line {
+  @apply h-[1px] mt-[22px] ml-8 mr-12 bg-primary-zinc-500;
+}
+
+//Body
+.bodyGroup {
+  @apply w-full flex flex-col justify-between mt-5;
+}
+
+.contentNotificationgrap {
+  @apply w-full grid grid-cols-3 grid-flow-col gap-4 mb-12;
+}
+
+.bodyTitle {
+  @apply text-14-500-21 text-primary-neutral-700;
+}
+
+.bodyswitch {
+  @apply text-14-500-21 text-primary-neutral-700;
+}
+
+.statusSwitchGroup {
+  @apply flex items-center gap-6 -mb-[2px];
+}
+
+.statusSwitchGroup label {
+  @apply flex items-center text-17-500-normal text-primary-neutral-700;
+}
+
+.contentStatusSwitch {
+  @apply text-17-500-normal text-primary-neutral-700;
+}
+
+.bodyswitch {
+  @apply w-full flex flex-col justify-start;
+}
+
+.inputGroup {
+  @apply w-full mt-[30px];
+}
+
+.inputContent {
+  @apply w-full text-14-500-normal text-primary-zinc-500 ml-[15px];
+}

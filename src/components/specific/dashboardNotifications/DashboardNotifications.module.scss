@@ -1,0 +1,21 @@
+.dashboardNotificationsContainer {
+  @apply w-full h-full p-4 border border-primary-gray-300 rounded-lg;
+}
+
+// Header
+.headerGroup {
+  @apply flex justify-between items-center;
+}
+
+.title {
+  @apply text-17-500-normal text-primary-neutral-700;
+}
+
+.linkStyle {
+  @apply text-14-400-21 text-primary-gray-400 cursor-pointer;
+}
+
+// Body
+.bodyGroup {
+  @apply mt-3 grid gap-y-4;
+}

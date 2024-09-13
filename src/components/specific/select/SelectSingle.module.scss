@@ -1,0 +1,11 @@
+.selectSingleWrap {
+  @apply relative;
+}
+
+.selectOption {
+  @apply bg-primary-gray-100 border border-primary-gray-300 text-primary-gray-700  rounded-lg focus:bg-primary-gray-100 focus:border-gray-700 block w-full p-2.5;
+}
+
+.iconSelect {
+  @apply pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2 text-primary-gray-700;
+}

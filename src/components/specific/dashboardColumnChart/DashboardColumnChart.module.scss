@@ -1,0 +1,48 @@
+.columnChartContainer {
+  @apply w-full h-full flex flex-col gap-y-[26px] py-6 rounded-[10px] border border-primary-gray-200;
+}
+
+.titleChart {
+  @apply pl-6 text-17-500-normal text-primary-neutral-700;
+}
+
+.chartWrap {
+  @apply w-full flex-1;
+}
+
+.legendGroup {
+  @apply grid grid-cols-2 gap-3 px-[26px];
+}
+
+.legendItem {
+  @apply flex justify-start items-center;
+}
+
+.legendColor {
+  @apply w-[26px] h-[26px] rounded flex justify-center items-center text-12-600 text-white font-manrope;
+}
+
+.legendText {
+  @apply ml-3 text-14-600-normal text-primary-gray-500 font-manrope;
+}
+
+// Custom legend color
+// color === AdminColorChartEnum.ORANGE_FABE7A
+.orangeFabe7a {
+  @apply bg-primary-orange-300;
+}
+
+// color === AdminColorChartEnum.RED_F6866A
+.redF6866a {
+  @apply bg-primary-red-400;
+}
+
+// color === AdminColorChartEnum.CYAN_59E6F6
+.cyan59e6f6 {
+  @apply bg-primary-cyan-300;
+}
+
+// color === AdminColorChartEnum.INDIGO_7661E2
+.indigo7661e2 {
+  @apply bg-primary-indigo-500;
+}

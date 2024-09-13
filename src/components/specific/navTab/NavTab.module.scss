@@ -1,0 +1,19 @@
+.navTabContainer {
+  @apply w-full h-auto;
+}
+
+.navLink {
+  @apply inline-flex items-center pr-6;
+}
+
+.navLinkActive {
+  @apply relative;
+}
+
+.textStyle {
+  @apply text-14-500-21 text-primary-gray-700;
+}
+
+.textStyleActive {
+  @apply text-14-500-21 text-primary-cyan-500;
+}

@@ -1,0 +1,23 @@
+.loginFormHeader {
+  @apply text-40-700-60 text-primary-gray-700;
+}
+
+.loginFormNote {
+  @apply text-20-700-30 text-primary-gray-700 mt-[27px] mb-[38px];
+}
+
+.loginFormNote::after {
+  @apply w-[26px] h-1 block mt-2 bg-primary-cyan-500 content-[''];
+}
+
+.loginForm {
+  @apply text-14-400-21;
+}
+
+.loginFormWrapForgot {
+  @apply container -mt-1 mb-8 text-right;
+}
+
+.loginFormForgot {
+  @apply text-14-500-21 text-primary-gray-500 cursor-pointer;
+}
